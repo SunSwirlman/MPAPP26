@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>Competitor Analysis Assistant</title>
+<link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <div class="wrap">
+    <h1>AI-анализатор конкурентов</h1>
+    <p class="subtitle">Ниша: персональные цифровые аватары</p>
+
+    <div class="tabs">
+      <button class="tab-btn active" data-tab="text">Текст</button>
+      <button class="tab-btn" data-tab="image">Изображение</button>
+      <button class="tab-btn" data-tab="parse">Парсинг URL</button>
+      <button class="tab-btn" data-tab="history">История</button>
+    </div>
+
+    <section id="tab-text" class="tab-content active">
+      <label>Название конкурента (опционально)</label>
+      <input type="text" id="competitor-name" placeholder="Synthesia">
+      <label>Текст для анализа</label>
+      <textarea id="text-input" rows="6" placeholder="Вставьте описание продукта конкурента..."></textarea>
+      <button id="analyze-text-btn">Анализировать текст</button>
+    </section>
+
+    <section id="tab-image" class="tab-content">
+      <label>Изображение (баннер, лендинг, карточка товара)</label>
+      <input type="file" id="image-input" accept="image/*">
+      <button id="analyze-image-btn">Анализировать изображение</button>
+    </section>
+
+    <section id="tab-parse" class="tab-content">
+      <label>URL сайта конкурента</label>
+      <input type="text" id="parse-url" placeholder="https://www.synthesia.io/">
+      <button id="parse-btn">Спарсить и проанализировать</button>
+    </section>
+
+    <section id="tab-history" class="tab-content">
+      <button id="load-history-btn">Обновить историю</button>
+      <button id="clear-history-btn">Очистить историю</button>
+      <div id="history-list"></div>
+    </section>
+
+    <div id="loading" class="hidden">Обрабатываю запрос...</div>
+    <div id="result"></div>
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

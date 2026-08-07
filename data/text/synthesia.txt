@@ -1,0 +1,24 @@
+Synthesia — AI Video Platform for Business
+URL: https://www.synthesia.io/
+
+Title: Synthesia: #1 AI Video Platform for Business
+H1: All-in-one AI Video platform for business
+
+Описание: Create studio-quality videos with AI avatars and voiceovers in 160+ languages.
+Save up to 90% of time and cost on video production. Платформа предоставляет 240+ AI-аватаров
+и 1000+ AI-голосов с поддержкой локализации на 160+ языках.
+
+Ключевые фичи:
+- 240+ AI Avatars
+- 1000+ AI voices на 160+ языках
+- AI Screen Recorder
+- AI Video Generator
+- AI Motion Graphics
+- AI Dubbing и Video Translator
+- Brand Kit для кастомизации
+- Live Collaboration
+- Version Control
+- Analytics
+- Interactive Avatars (Beta)
+- Roleplay Sessions (новое)
+- Соответствие SOC 2 Type II, ISO 42001, GDPR
